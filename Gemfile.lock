@@ -69,9 +69,9 @@ GEM
     builder (3.2.4)
     byebug (11.0.1)
     coderay (1.1.2)
-    coffee-rails (4.2.2)
+    coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0)
+      railties (>= 5.2.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -124,14 +124,15 @@ GEM
     factory_bot_rails (5.1.1)
       factory_bot (~> 5.1.0)
       railties (>= 4.2.0)
-    ffaker (2.13.0)
+    faker (2.1.2)
+      i18n (>= 0.8)
     ffi (1.11.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     graphiql-rails (1.7.0)
       railties
       sprockets-rails
-    graphql (1.9.15)
+    graphql (1.9.17)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     inflecto (0.0.2)
@@ -155,7 +156,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
-    pg (1.1.4)
+    pg (1.2.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -197,7 +198,7 @@ GEM
       thor (>= 0.20.3, < 2.0)
     rake (13.0.1)
     rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
     reform (2.2.4)
       disposable (>= 0.4.1)
@@ -274,10 +275,10 @@ GEM
       railties (>= 4.0.0)
       trailblazer (>= 2.1.0.beta1, < 2.2.0)
       trailblazer-loader (>= 0.1.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     uber (0.1.0)
-    uglifier (4.1.20)
+    uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
@@ -295,7 +296,7 @@ DEPENDENCIES
   dry-types
   dry-validation (= 0.11.1)
   factory_bot_rails
-  ffaker
+  faker
   graphiql-rails
   graphql
   listen (>= 3.0.5, < 3.2)

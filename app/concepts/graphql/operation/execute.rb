@@ -6,7 +6,7 @@ class Graphql::Execute < Trailblazer::Operation
   pass :model!
 
   def variables!(ctx, params:, **)
-    ctx[:variables] = Graphql::Lib::Service::EnsureHash.call(params[:variables])
+    ctx[:variables] = EnsureHash.call(params[:variables])
   end
 
   def query!(ctx, params:, **)
